@@ -1,0 +1,3 @@
+BOT_USERNAME=YourBotName
+BOT_PASSWORD=YourServerPassword
+DISCORD_WEBHOOK=https://discord.com/api/webhooks/xxxxx/yyyyy

@@ -1,0 +1,17 @@
+{
+  "name": "mc-bot",
+  "version": "1.0.0",
+  "description": "Mineflayer bot with proximity alerts via ntfy and Discord webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.20.1",
+    "node-global-key-listener": "^0.3.0"
+  }
+}
