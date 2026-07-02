@@ -29,6 +29,7 @@ const bot = mineflayer.createBot({
     auth: 'offline',
     version: '1.19.4'
 });
+bot.physicsEnabled = false;
 let trackingReady = false;
 bot.once('spawn', () => {
     sendLog(`${USERNAME} spawned.`);
