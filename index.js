@@ -41,7 +41,7 @@ bot.once('spawn', () => {
             setTimeout(() => {
                 trackingReady = true;
                 sendLog(`[SYS] Player tracking enabled.`);
-            }, 5000);
+            }, 15000);
         }, 3000);
     }, 1000);
 });
