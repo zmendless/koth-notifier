@@ -26,10 +26,8 @@ const bot = mineflayer.createBot({
     host: 'play.tulparmc.com',
     port: 25565,
     username: USERNAME,
-    auth: 'offline',
     version: '1.19.4'
 });
-bot.physicsEnabled = false;
 let trackingReady = false;
 bot.once('spawn', () => {
     sendLog(`${USERNAME} spawned.`);
@@ -43,8 +41,8 @@ bot.once('spawn', () => {
                 trackingReady = true;
                 sendLog(`[SYS] Player tracking enabled.`);
             }, 15000);
-        }, 3000);
-    }, 1000);
+        }, 5000);
+    }, 2000);
 });
 bot.on('kicked', reason => sendLog(`Kicked: ${reason}`));
 bot.on('error', err => sendLog(`Error: ${err.message}`));
